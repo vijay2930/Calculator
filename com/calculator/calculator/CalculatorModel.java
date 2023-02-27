@@ -42,7 +42,6 @@ public class CalculatorModel implements CalculatorModelCallBack{
                 s=
                         s.substring(0,i-4)+ Compute.sqrt(Read.Double(s.substring(i+1,s.indexOf(')',i))))+s.substring(s.indexOf(')',i)+1);
                 i=s.length()-1;
-                System.out.println(s);
             }
             else if(i-3>=0 && s.substring(i-3,i).equals("log")){
                 s=

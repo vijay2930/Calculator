@@ -69,7 +69,6 @@ public class Repository {
     }
 
     public Expression addExpression(String username, String exp, String result) {
-        System.out.println(username+" working");
         for (History history:this.userList.get(username).getHistoryList()) {
             if(history.getDate().equals(Read.getDate())){
                 Expression expression=new Expression(exp,result,Read.getTime());
