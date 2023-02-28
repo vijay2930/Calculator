@@ -5,9 +5,10 @@
 
     Trigonometric functions: sine, cosine, tangent
 
-    Logarithmic functions: natural logarithm and base 10 logarithm
+    Logarithmic functions: natural logarithm
 
     Exponential function
+
     Square root 
 
     Memory operations: memory store and recall

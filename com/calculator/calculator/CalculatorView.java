@@ -57,8 +57,8 @@ public class CalculatorView implements CalculatorViewCallBack{
 
     private void getComputeValue() {
         System.out.println("Expression Page");
-        System.out.println("sqrt - for finding sqrt");
-        System.out.println("log - for finding Log(val,base)");
+        System.out.println("sqrt - for finding sqrt(val)");
+        System.out.println("log - for finding Log(val)");
         System.out.println("sin - for finding sin(val)");
         System.out.println("cos - for finding cos(val)");
         System.out.println("tan - for finding tan(val)");
